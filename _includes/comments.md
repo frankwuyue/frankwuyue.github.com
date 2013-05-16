@@ -2,8 +2,8 @@
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'geekfrank'; // required: replace example with your forum shortname
-    var disqus_url = '{{ site.url }}{{ page.url | remove:'index.html' }}';
+    var disqus_shortname = 'frankwuyue'; // required: replace example with your forum shortname
+    var disqus_url = '{{http://frankwuyue.github.com}}{{ page.url | remove:'index.html' }}';
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
