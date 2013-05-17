@@ -78,11 +78,14 @@ Build your own blog by github
   Today I will show you the way to use GitHub to build your own blog. It's free and so easy to use. Compared to other blog websites like tumblr, you can build a site in whatever you like, not in a template, although you may spend more time on it.
   So, let's start.
 
+
 ## About os ##
   I strongly recommend you use GitHub on Linux. Here is a link for [Download for Linux, Mac, Windows and Solaris](http://git-scm.com/downloads). I don't know the exact difference between these OS, but I will use Ubuntu 12.04 to show you the process.
   And of course, you should sign up on GitHub.
 
+
 ## SSH keys ##
+
 
 #### 1. Check the SSH keys
   we should check on the ssh key on PC.
@@ -91,6 +94,7 @@ Build your own blog by github
  
   if the terminal shows "No such file or directory",then go to step 3, otherwise go on.
 
+
 #### 2. Back-up and remove the former ssh key
 
         $ ls
@@ -98,6 +102,7 @@ Build your own blog by github
         $ mkdir key_backup
         $ cp id_rsa* key_backup
         $ rm id_rsa*
+
 
 #### 3. Creat new SSH key
 
@@ -116,11 +121,13 @@ Build your own blog by github
 
   ![SSH key](~/photos/w680.png)
 
+
 #### 4. Add SSH key to GitHub
 
  Assume you have signed in GitHub and you can see *Accout settings* on the right top. Click it and you can see *SSH Keys* on the left. Click it and copy the ssh keys in the column. Like this.
 
   ![SSH key](~/photos/w680.jpg)
+
 
 #### 5. Test it
 
@@ -139,18 +146,6 @@ Build your own blog by github
 
         Hi username! You've successfully authenticated, but GitHub does not provide shell access.
 
-#### 6. Set your account information
-
-  When you push a post or change sth in repo, the Git will check your account name and it's very important for your authentication, you definitely don't want to use other random name.
-
-        $ git config --global user.name "yourname"
-        $ git config --global user.email "yourname@youremail.com"
-     
-#####(to be continued)
-  and you may see
-
-
-        Hi username! You've successfully authenticated, but GitHub does not provide shell access.
 
 #### 6. Set your account information
 
@@ -160,3 +155,4 @@ Build your own blog by github
         $ git config --global user.email "yourname@youremail.com"
      
 #####(to be continued)
+  
