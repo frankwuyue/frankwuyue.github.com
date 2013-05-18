@@ -60,7 +60,7 @@ Build your own blog by github
 
   When you see this kind of thing, congrats!
 
-  ![SSH key](file:///frank/Home/frankwuyue.github.com/photos/w680.png)
+  ![SSH key](http://img.readitlater.com/i/beiyuu.com/images/githubpages/ssh-key-set/RS/w680.png)
 
 
 #### 4. Add SSH key to GitHub
@@ -68,7 +68,7 @@ Build your own blog by github
 
  Assume you have signed in GitHub and you can see *Accout settings* on the right top. Click it and you can see *SSH Keys* on the left. Click it and copy the ssh keys in the column. Like this.
 
-  ![SSH key](file:///frank/Home/frankwuyue.github.com/photos/w680.jpg)
+  ![SSH key](http://img.readitlater.com/i/beiyuu.com/images/githubpages/bootcamp_1_ssh/RS/w680.jpg)
 
 
 #### 5. Test it
