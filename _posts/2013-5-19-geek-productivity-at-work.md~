@@ -9,7 +9,6 @@ tags:
 ---
 
 為什麼軟體工程師選擇在半夜工作？Geek的生產力曲線解密
-
 ====
 
 ![geek productivity at work](http://cdn.inside.com.tw/wp-content/uploads/2013/05/8629313295_ef00044661.jpg)
