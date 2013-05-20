@@ -98,6 +98,31 @@ Build your own blog by github
         $ git config --global user.name "yourname"
         $ git config --global user.email "yourname@youremail.com"
      
+  Now you can connect to the github.
+
+## Build a blog by GitHub Pages
+
+  There are two basic types of Pages available,__User/Organization Pages__ and __Project Pages__. The two types of pages are nearly identical, except for a few details.
+
+   __User & Organization Pages__ live in a special repository dedicated to only the Pages files. This repository uses the account name, [for example](atmos/atmos.github.io).
+
+*  This repository must use the `username/username.github.io` naming scheme.
+
+*  Content from the __master__ branch will be used to build and publish the Pages.ojec
+ 
+   __Project Pages__ are kept in the same repository as the project they are for. These pages are almost exactly the same as User and Org Pages, with a few slight differences:
+
+*  The gh-pages branch is used to build and publish from.
+
+*  A custom domain on user/org pages will apply the same domain redirect to all project pages hosted under that account, unless the project pages use their own custom domain.
+
+*  If no custom domain is used, the project pages are served under a subpath of the user pages: `username.github.io/projectname`.
+
+*  Custom 404s will only work if a custom domain is used, otherwise the User Pages 404 is used.
+
+  You can see [GitHub Help on Pages](https://help.github.com/articles/user-organization-and-project-pages).
+  
+
 
 #####(to be continued)
   
