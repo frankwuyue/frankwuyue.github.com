@@ -84,7 +84,6 @@ When you push a post or change sth in repo, the Git will check your account name
         $ git config --global user.name "yourname"
         $ git config --global user.email "yourname@youremail.com"
 
-
 Now you can connect to the github.
 
 ## Build a blog by GitHub Pages
@@ -109,4 +108,4 @@ There are two basic types of Pages available,**User/Organization Pages** and **P
 
 You can see [GitHub Help on Pages](https://help.github.com/articles/user-organization-and-project-pages).
 
-#####(to be continued)
+##### (to be continued)

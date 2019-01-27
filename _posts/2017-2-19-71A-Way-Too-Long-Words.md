@@ -1,10 +1,10 @@
-####71A - Way Too Long Words_Codeforces 
+#### 71A - Way Too Long Words_Codeforces
 
 **Accepted**
 
     import java.io.IOException;
     import java.util.Scanner;
-    
+
     public class Waytoolongwords {
     	public static void main(String[] args)throws IOException{
     		int n=0;
@@ -22,8 +22,7 @@
     	}
     }
 
-
-At first I used BufferedReader twice to save both the number and the string, 
+At first I used BufferedReader twice to save both the number and the string,
 the output are all null, so I changed to use Scanner.
 See [here](http://stackoverflow.com/questions/5287538/how-can-i-get-the-user-input-in-java "here") for some options for java input.
 
@@ -32,7 +31,7 @@ See [here](http://stackoverflow.com/questions/5287538/how-can-i-get-the-user-inp
     import java.io.BufferedReader;
     import java.io.IOException;
     import java.io.InputStreamReader;
-    
+
     public class Waytoolongwords {
     	public static void main(String[] args)throws IOException{
     		int n=0;
