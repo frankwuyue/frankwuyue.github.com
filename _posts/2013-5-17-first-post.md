@@ -2,10 +2,10 @@
 layout: post
 title: my first post
 categories:
-- Programming
+  - Programming
 tags:
-- github
-- markdown
+  - github
+  - markdown
 ---
 
 this is my first post and I am so happy!

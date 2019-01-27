@@ -2,28 +2,24 @@
 layout: post
 title: Welcome to StackEdit
 categories:
-- Reader
+  - Reader
 tags:
-- reader
-- markdown
+  - Reader
+  - Markdown
 ---
 
-Welcome to StackEdit!	{#welcome}
-=====================
-
+# Welcome to StackEdit! {#welcome}
 
 Hello, I am your first Markdown document within **StackEdit**[^stackedit]. Don't delete me, I can be helpful. I can be recovered anyway in the `Utils` tab of the <i class="icon-cog"></i> `Settings` dialog.
 
-----------
+---
 
-
-Documents
----------
+## Documents
 
 **StackEdit** stores your documents in your browser local storage, which means all your documents are automatically saved locally and are accessible **offline!**
 
 > **NOTE:**
-> 
+>
 > - StackEdit is accessible offline once the HTML5 application cache has been fully loaded.
 > - Your local documents are not shared between different browsers or computers.
 > - Clearing your browser's data may **delete all your local documents!**
@@ -50,24 +46,21 @@ You can save the current document to a file using the <i class="icon-hdd"></i> `
 
 > **NOTE:** See [<i class="icon-share"></i> Publish a document](#publish-a-document) section for a description of the different outputs.
 
+---
 
-----------
+## Synchronization
 
-
-Synchronization
----------------
-
-**StackEdit** can be combined with **Google Drive** and **Dropbox** to have your documents centralized in the *Cloud*. The synchronization mechanism will take care of uploading your modifications or downloading the latest version of your documents.
+**StackEdit** can be combined with **Google Drive** and **Dropbox** to have your documents centralized in the _Cloud_. The synchronization mechanism will take care of uploading your modifications or downloading the latest version of your documents.
 
 > **NOTE:**
-> 
+>
 > - Full access to **Google Drive** or **Dropbox** is required to be able to import any document in StackEdit.
 > - Imported documents are downloaded in your browser and are not transmitted to a server.
 > - If you experience problems exporting documents to Google Drive, check and optionally disable browser extensions, such as Disconnect.
 
 #### <i class="icon-download"></i> Import a document
 
-You can import a document from the *Cloud* by going to the <i class="icon-provider-gdrive"></i> `Google Drive` or the <i class="icon-provider-dropbox"></i> `Dropbox` sub-menu and by clicking `Import from...`. Once imported, your document will be automatically synchronized with the **Google Drive** / **Dropbox** file.
+You can import a document from the _Cloud_ by going to the <i class="icon-provider-gdrive"></i> `Google Drive` or the <i class="icon-provider-dropbox"></i> `Dropbox` sub-menu and by clicking `Import from...`. Once imported, your document will be automatically synchronized with the **Google Drive** / **Dropbox** file.
 
 #### <i class="icon-upload"></i> Export a document
 
@@ -87,11 +80,9 @@ Since one document can be synchronized with multiple locations, you can list and
 
 > **NOTE:** If you delete the file from **Google Drive** or from **Dropbox**, the document will no longer be synchronized with that location.
 
-----------
+---
 
-
-Publication
------------
+## Publication
 
 Once you are happy with your document, you can publish it on different websites directly from **StackEdit**. As for now, **StackEdit** can publish on **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **Tumblr**, **WordPress** and on any SSH server.
 
@@ -117,35 +108,31 @@ Since one document can be published on multiple locations, you can list and mana
 
 > **NOTE:** In some cases, if the file from has been removed from the website or the blog, the document will no longer be published on that location.
 
-----------
+---
 
-
-Markdown Extra
---------------
+## Markdown Extra
 
 **StackEdit** supports **Markdown Extra**, which extends **Markdown** syntax with some nice features.
 
 > **NOTE:** You can disable any **Markdown Extra** feature in the `Extensions` tab of the <i class="icon-cog"></i> `Settings` dialog.
 
-
 ### Tables
 
 **Markdown Extra** has a special syntax for tables:
 
-Item      | Value
---------- | -----
-Computer  | \$1600
-Phone     | \$12
-Pipe      | \$1
+| Item     | Value  |
+| -------- | ------ |
+| Computer | \$1600 |
+| Phone    | \$12   |
+| Pipe     | \$1    |
 
 You can specify column alignment with one or two colons:
 
-| Item      |  Value | Qty  |
-| :-------- | ------:| :--: |
-| Computer  | \$1600 |  5   |
-| Phone     |   \$12 |  12  |
-| Pipe      |    \$1 | 234  |
-
+| Item     |  Value | Qty |
+| :------- | -----: | :-: |
+| Computer | \$1600 |  5  |
+| Phone    |   \$12 | 12  |
+| Pipe     |    \$1 | 234 |
 
 ### Definition Lists
 
@@ -153,17 +140,16 @@ You can specify column alignment with one or two colons:
 
 Term 1
 Term 2
-:   Definition A
-:   Definition B
+: Definition A
+: Definition B
 
 Term 3
 
-:   Definition C
+: Definition C
 
-:   Definition D
+: Definition D
 
-	> part of definition D
-
+    > part of definition D
 
 ### Fenced code blocks
 
@@ -176,24 +162,21 @@ var bar = 0;
 
 > **NOTE:** To use **Highlight.js** instead of **Prettify**, just configure the `Markdown Extra` extension in the <i class="icon-cog"></i> `Settings` dialog.
 
-
 ### Footnotes
 
 You can create footnotes like this[^footnote].
 
-  [^footnote]: Here is the *text* of the **footnote**.
-
+[^footnote]: Here is the _text_ of the **footnote**.
 
 ### SmartyPants
 
 SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
-|                  | ASCII                                    | HTML                                |
- ------------------|------------------------------------------|-------------------------------------
-| Single backticks | `'Isn't this fun?'`                      | &#8216;Isn&#8217;t this fun?&#8217; |
-| Quotes           | `"Isn't this fun?"`                      | &#8220;Isn&#8217;t this fun?&#8221; |
+|                  | ASCII                                    | HTML                                            |
+| ---------------- | ---------------------------------------- | ----------------------------------------------- |
+| Single backticks | `'Isn't this fun?'`                      | &#8216;Isn&#8217;t this fun?&#8217;             |
+| Quotes           | `"Isn't this fun?"`                      | &#8220;Isn&#8217;t this fun?&#8221;             |
 | Dashes           | `-- is an en-dash and --- is an em-dash` | &#8211; is an en-dash and &#8212; is an em-dash |
-
 
 ### Table of contents
 
@@ -201,19 +184,18 @@ You can insert a table of contents using the marker `[TOC]`:
 
 [TOC]
 
-
 ### MathJax
- 
-You can render *LaTeX* mathematical expressions using **MathJax**, as on [math.stackexchange.com][1]:
 
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall
+You can render _LaTeX_ mathematical expressions using **MathJax**, as on [math.stackexchange.com][1]:
+
+The _Gamma function_ satisfying $\Gamma(n) = (n-1)!\quad\forall
 n\in\mathbb N$ is via the Euler integral
 
 $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
 
-> **NOTE:** Make sure you include MathJax into your publications to render mathematical expression correctly. Your page/template should include something like: 
+> **NOTE:** Make sure you include MathJax into your publications to render mathematical expression correctly. Your page/template should include something like:
 
 ```
 <script type="text/javascript" src="https://stackedit.io/libs/MathJax/MathJax.js?config=TeX-AMS_HTML"></script>
@@ -227,8 +209,9 @@ $$
 > - about **Prettify** syntax highlighting [here][5],
 > - about **Highlight.js** syntax highlighting [here][6].
 
-  [^stackedit]: [StackEdit](https://stackedit.io/) is a full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
+[^stackedit]:
 
+  [StackEdit](https://stackedit.io/) is a full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
 
   [1]: http://math.stackexchange.com/
   [2]: http://daringfireball.net/projects/markdown/syntax "Markdown"
